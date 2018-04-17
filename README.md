@@ -12,7 +12,7 @@ Use the following command to build the environment:
 ## Test within container ##
 
 To start a container for tests:
-`docker run --rm -ti nodatatest_arch:latest`
+`docker run --rm -ti nodatatest_${DISTRIBUTION}:latest`
 
 This opens a shell. Go `/home/tester/Nodate/examples/blinky` (or any other example) and execute one of the following commands:
 
