@@ -16,6 +16,6 @@ To start a container for tests:
 
 This opens a shell. Go `/home/tester/Nodate/examples/blinky` (or any other example) and execute one of the following commands:
 
- * `make` for AVR atmega2560
- * `ARCH=esp8266 MCU=esp8266 make` 
- * `ARCH=sam BOARD=arduino_due make`
+ * `ARCH=avr MCU=atmega2560 BOARD=arduino_mega_2560 make` for AVR atmega2560
+ * `ARCH=esp8266 MCU=esp8266 VARIANT=d1_mini make` for esp8266 on d1 mini
+ * `ARCH=sam BOARD=arduino_due VARIANT=arduino_due_x make`
